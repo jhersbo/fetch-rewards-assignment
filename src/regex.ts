@@ -1,0 +1,2 @@
+export const fullNameRegEx = new RegExp("(^[A-Za-z]{3,16})([ ]{0,1})([A-Za-z]{3,16})?([ ]{0,1})?([A-Za-z]{3,16})?([ ]{0,1})?([A-Za-z]{3,16})")
+export const emailRegEx = new RegExp("[a-z0-9]+@[a-z]+\.[a-z]{2,3}")
